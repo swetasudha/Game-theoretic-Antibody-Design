@@ -30,6 +30,8 @@ def obtain_index(acid):
 N_ab=27
 N_v=32
 Z=10
+
+# count matrix is the probability matrix  computed from mutation history
 count_matrix=numpy.loadtxt("mutation_counts.txt")
 count_matrix=count_matrix>0
 
