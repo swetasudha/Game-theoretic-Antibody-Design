@@ -2,13 +2,9 @@
 import sys
 import csv
 import numpy
-from sklearn import linear_model, decomposition, datasets
-from sklearn import svm, datasets
 from sklearn.linear_model import Lasso
 from numpy import linalg as LA
 import os
-import pylab
-import matplotlib.pyplot as plt
 from scipy import sparse
 
 # this script reads the data, constructs the training set, creates the feature representation and performs z-score regression.
