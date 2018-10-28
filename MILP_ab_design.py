@@ -1,12 +1,10 @@
 #!/usr/bin/python
 import numpy
 import sys
-import pickle
 import os
 import cplex
 from cplex.exceptions import CplexError
-import pylab
-import matplotlib.pyplot as plt
+
 
 
 # this script requires the following arguments: the random subsample index as sample, the corresponding unique virus sequences as train_size, and the number of mutations (\alpha in the paper) as alpha. 
