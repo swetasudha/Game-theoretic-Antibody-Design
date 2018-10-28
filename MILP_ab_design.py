@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 # this script requires the following arguments: the random subsample index as sample, the corresponding unique virus sequences as train_size, and the number of mutations (\alpha in the paper) as alpha. 
 # the current folder is sample_and_train_sample_train_size which has the training data, the z_scores and the parameters saved from regression.
 # it loads the coefficient and the intercept parameters from the z-score regression model trained previously on this subsample. 
-# finally, it contructs the MILP 6 in the paper for robust ab design and uses cplex python interface to compute the solution.
+# finally, it constructs the MILP 6 in the paper for robust ab design and uses cplex python interface to compute the solution.
 
 
 sample=int( sys.argv[1])
