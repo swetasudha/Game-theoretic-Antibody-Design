@@ -21,9 +21,9 @@ Finally, it constructs the MILP 6 in the paper for robust ab design and uses cpl
 
 3) z_score_regression_training.py performs z_score regression on a given random subsample of the data.
 
-  This script reads the data, constructs the training set, creates the feature representation and performs z-score regression.
-  Finally, the model parameters are saved as the coefficient and the intercept.
-  The arguments for this python script, sample is an index of a random subsample of training data, train_size is the number of unique viruses in
+This script reads the data, constructs the training set, creates the feature representation and performs z-score regression.
+Finally, the model parameters are saved as the coefficient and the intercept.
+The arguments for this python script, sample is an index of a random subsample of training data, train_size is the number of unique viruses in
 the data, regularization is the parameter for regression.
 The current folder is sample_and_train_sample_train_size which has a file train_v_set.txt which contains the list of unique virus
 sequences in this random subsample.
