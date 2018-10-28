@@ -14,6 +14,10 @@ from scipy import sparse
 # this script reads the data, constructs the training set, creates the feature representation and performs z-score regression.
 # finally, the model parameters are saved as the coefficient and the intercept.
 # the arguments for this python script, sample is an index of a random subsample of training data, train_size is the number of viruses in the data, regularization is the parameter for regression.
+# the current folder is sample_and_train_sample_train_size which has a file train_v_set.txt which contains the list of unique virus sequences in this random subsample.
+# this script matches these unique sequences with the training data: antibodies.txt, viruses.txt and z_scores.txt (these files are in the parent folder of the current folder).
+# the files antibodies.txt, viruses.txt and z_scores.txt contain the ab and v binding site strings ad the corresponding z_scores respectively.
+
 sample=int(sys.argv[1]) 
 train_size=int(sys.argv[2])
 regularization=float(sys.argv[3])
